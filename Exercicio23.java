@@ -1,3 +1,6 @@
+import classes.Pessoa;
+import util.Prompt;
+
 public class Exercicio23 {
     public static void executar() {
         String nome = Prompt.lerLinha("\nDigite o nome da pessoa:");
