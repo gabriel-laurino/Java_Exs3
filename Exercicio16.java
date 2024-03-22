@@ -1,3 +1,6 @@
+import classes.Funcionario;
+import util.Prompt;
+
 public class Exercicio16 {
     public static void executar() {
         for (int i = 0; i < 584; i++) {
