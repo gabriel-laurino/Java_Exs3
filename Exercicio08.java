@@ -1,3 +1,6 @@
+import classes.Aluno;
+import util.Prompt;
+
 public class Exercicio08{
 
     public static void executar() {
