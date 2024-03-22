@@ -1,3 +1,6 @@
+import classes.Triangulo;
+import util.Prompt;
+
 public class Exercicio19 {
     public static void executar() {
         int ladoA = Prompt.lerInteiro("\nDigite o comprimento do lado A:");
