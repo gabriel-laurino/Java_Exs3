@@ -1,3 +1,6 @@
+import classes.Funcionario;
+import util.Prompt;
+
 public class Exercicio17{
     public static void executar() {
         double aumentoTotal = 0;
