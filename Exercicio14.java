@@ -1,3 +1,6 @@
+import classes.Produto;
+import util.Prompt;
+
 public class Exercicio14 {
     public static void executar() {
         double somaCusto = 0, somaVenda = 0;
