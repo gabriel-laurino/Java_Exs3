@@ -1,3 +1,6 @@
+import classes.ConversorDeMoeda;
+import util.Prompt;
+
 public class Exercicio04 {
     public static void executar() {
         double cotacaoDolar = Prompt.lerDecimal("Digite o valor da cotação do dólar:");
