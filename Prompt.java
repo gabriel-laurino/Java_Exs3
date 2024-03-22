@@ -12,7 +12,8 @@ import java.io.InputStreamReader;
  * @version 1.1 Mar 2024
  * Modificado por: Gabriel Laurino para uso pessoal.
  * 
- * @Adições: formatação de texto com printf em 'imprimirf'.
+ * @Adições: • formatação de texto com printf em 'imprimirf';
+ * 			 • leitura de caractere com 'lerChar'.
  */
 public class Prompt {
 
