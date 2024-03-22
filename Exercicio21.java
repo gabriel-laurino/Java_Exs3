@@ -1,3 +1,6 @@
+import classes.Nadador;
+import util.Prompt;
+
 public class Exercicio21 {
     public static void executar() {
         int idade = Prompt.lerInteiro("\nDigite a idade do nadador:");
