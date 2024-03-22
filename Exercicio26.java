@@ -1,3 +1,6 @@
+import classes.Segurado;
+import util.Prompt;
+
 public class Exercicio26 {
     public static void executar() {
         String nome = Prompt.lerLinha("\nDigite o nome do segurado:");
