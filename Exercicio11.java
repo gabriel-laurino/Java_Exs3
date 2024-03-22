@@ -1,3 +1,6 @@
+import classes.Pessoa;
+import util.Prompt;
+
 public class Exercicio11{
 
     public static void executar(){
