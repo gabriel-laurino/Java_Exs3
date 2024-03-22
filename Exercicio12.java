@@ -1,3 +1,6 @@
+import classes.Veiculo;
+import util.Prompt;
+
 public class Exercicio12 {
     
     public static void executar() {
