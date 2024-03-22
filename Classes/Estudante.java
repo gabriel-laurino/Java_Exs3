@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Estudante {
     private String nome;
     private int matricula;

@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Automovel {
     private double distanciaPercorrida;
     private double combustivelGasto;

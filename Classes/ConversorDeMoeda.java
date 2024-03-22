@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class ConversorDeMoeda {
     private double cotacaoDolar;
     private double quantidadeDolares;

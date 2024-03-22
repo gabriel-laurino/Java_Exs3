@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class VeiculoComDesconto {
     private double valorVeiculo;
     private char tipoCombustivel;

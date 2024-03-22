@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class ContaLuz {
     private int tipoCliente;
     private double kwHora;

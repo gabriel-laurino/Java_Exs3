@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Carro {
     private double custoFabrica;
 

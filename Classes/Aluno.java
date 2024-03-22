@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Aluno {
     private String nome;
     private double[] notas = new double[3];

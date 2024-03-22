@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Segurado {
     private String nome;
     private int idade;

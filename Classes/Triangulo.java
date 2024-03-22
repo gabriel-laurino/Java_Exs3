@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Triangulo {
     private int ladoA;
     private int ladoB;

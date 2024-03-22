@@ -1,3 +1,7 @@
+package classes;
+
+import util.Prompt;
+
 public class Produto {
     private double N1;
     private double N2;
