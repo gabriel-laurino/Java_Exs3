@@ -1,3 +1,6 @@
+import classes.Professor;
+import util.Prompt;
+
 public class Exercicio20 {
     public static void executar() {
         int nivel = Prompt.lerInteiro("\nDigite o nível do professor (1, 2 ou 3):");
