@@ -1,3 +1,6 @@
+import classes.VeiculoComDesconto;
+import util.Prompt;
+
 public class Exercicio15 {
     public static void executar() {
         double totalDesconto = 0, totalPago = 0;
