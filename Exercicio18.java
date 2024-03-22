@@ -1,3 +1,6 @@
+import classes.FuncionarioAbono;
+import util.Prompt;
+
 public class Exercicio18 {
     public static void executar() {
         String nome = Prompt.lerLinha("\nDigite o nome do funcionário:");
