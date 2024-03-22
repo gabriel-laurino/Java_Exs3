@@ -1,3 +1,5 @@
+import classes.IntervaloNumeros;
+
 public class Exercicio09 {
     public static void executar() {
         IntervaloNumeros intervalo = new IntervaloNumeros(80);
