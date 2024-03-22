@@ -2,7 +2,7 @@ public class Programa3 {
     public static void main(String[] args) {
 
         while (true) {
-            int exercicio = Prompt.lerInteiro("\nDigite o número do exercício que deseja executar (1-20):");
+            int exercicio = Prompt.lerInteiro("\nDigite o número do exercício que deseja executar (1-26):");
             Prompt.linhaEmBranco();
 
             String nomeDaClasse = String.format("Exercicio%02d", exercicio);
