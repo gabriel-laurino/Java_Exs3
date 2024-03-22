@@ -1,3 +1,6 @@
+import classes.Vendedor;
+import util.Prompt;
+
 public class Exercicio03 {
     public static void executar() {
         String nomeVendedor = Prompt.lerLinha("Digite o nome do vendedor:");
