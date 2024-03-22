@@ -8,6 +8,11 @@ import java.io.InputStreamReader;
  * 
  * @version 1.0 Mar 2023
  * @author Geucimar Briatore
+ * 
+ * @version 1.1 Mar 2024
+ * Modificado por: Gabriel Laurino para uso pessoal.
+ * 
+ * @Adições: formatação de texto com printf em 'imprimirf'.
  */
 public class Prompt {
 
@@ -27,11 +32,36 @@ public class Prompt {
 		System.out.flush();
 	}
 
+	public static void imprimirf(String objectFormat, Object args) {
+		System.out.printf(objectFormat, args);
+		System.out.flush();
+	}
+
+	public static void imprimirf(String objectFormat, Object args, Object args2) {
+		System.out.printf(objectFormat, args, args2);
+		System.out.flush();
+	}
+
+	public static void imprimirf(String objectFormat, Object args, Object args2, Object args3) {
+		System.out.printf(objectFormat, args, args2, args3);
+		System.out.flush();
+	}
+
+	public static void imprimirf(String objectFormat, Object args, Object args2, Object args3, Object args4) {
+		System.out.printf(objectFormat, args, args2, args3, args4);
+		System.out.flush();
+	}
+
+	public static void imprimirf(String objectFormat, Object args, Object args2, Object args3, Object args4, Object args5) {
+		System.out.printf(objectFormat, args, args2, args3, args4, args5);
+		System.out.flush();
+	}
+
 	/**
 	 * Imprime uma linha separadora no console.
 	 */
 	public static void separador() {
-		imprimir("---------------------------------------------------");
+		imprimir("\n---------------------------------------------------");
 	}
 
 	/**
@@ -130,6 +160,30 @@ public class Prompt {
 			}
 		}
 	}
+
+	/**
+	 * Faz a leitura do caractere digitado no prompt de comandos e retorna ele.
+	 * 
+	 * @return char
+	 */
+	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+	public static char lerChar(String mensagem) {
+		imprimir(mensagem); // Imprime a mensagem antes de fazer a leitura, seguindo o padrão.
+		return lerChar();
+	}
+	
+	public static char lerChar() {
+		while (true) {
+			try {
+				int valorLido = br.read(); // Lê o caractere.
+				br.readLine(); // Limpa o buffer para remover qualquer sobra, como o caractere de nova linha.
+				return (char) valorLido; // Retorna o caractere lido.
+			} catch (IOException e) {
+				System.out.println("Caractere inválido, digite novamente...");
+			}
+		}
+	}	
 
 	/**
 	 * Faz uma pausa no processamento e pede para o usuário pressionar enter para
